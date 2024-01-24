@@ -1,5 +1,6 @@
 import React from 'react'
 import PopularAcademiesComponent from '../atoms/card/PopularAcademiesComponent'
+import ViewAllButton from '../atoms/button/ViewAllButton'
 
 const PopularAcademies = () => {
     const data = [
@@ -57,6 +58,7 @@ const PopularAcademies = () => {
         <PopularAcademiesComponent key={index} title={item.title} {...item} />
       ))}
     </div>
+    <ViewAllButton title="View All Events"/>
     </div>
   )
 }

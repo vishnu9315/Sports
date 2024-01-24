@@ -4,6 +4,7 @@ import CardComponent from "../components/molecules/PopularCategoriesCardComponen
 import FeauturedAcademies from '../components/molecules/FeauturedAcadamies'
 import PopularCities from '../components/molecules/PopularCities'
 import PopularAcademies from '../components/molecules/PopularAcademies'
+import UpcomingEvents from '../components/molecules/UpcomingEvents'
 
 export default function Home() {
   return (
@@ -57,6 +58,7 @@ export default function Home() {
     <FeauturedAcademies />
     <PopularCities />
     <PopularAcademies />
+    <UpcomingEvents />
     </>
   );
 }
