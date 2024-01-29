@@ -2,9 +2,9 @@ import FeaturedAcademyComponent from '../atoms/card/FeaturedAcademyComponent';
 import Card from '../atoms/card/FeaturedAcademyComponent'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';  
-import imc from '../atoms/card/vall.jpg'
+import imc from '../../../public/assets/Rectangle 1.png'
 
-const FeauturedAcademies = () => {
+export const FeauturedAcademies = () => {
     const sports = [
       { text: "Cricket", image: "path" },
       { text: "Football", image: "path_to_football_image.jpg" },
@@ -19,7 +19,7 @@ const FeauturedAcademies = () => {
      <div className="w-full bg-blue-800 h-[500px]">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 pt-[2%] flex justify-between"> 
         <div>
-        <h1 className="text-white text-2xl font-bold mb-4 ">Featured  <br />Academies</h1>
+        <h1 className="text-white text-3xl font-bold mb-4 ">Featured  <br />Academies</h1>
           <p className='text-white'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p> 
           <div className='flex mt-[30%]'>
             <button className='text-red-600' >
@@ -32,7 +32,7 @@ const FeauturedAcademies = () => {
           </div>
         </div>
             <FeaturedAcademyComponent image = {imc}/>
-            <FeaturedAcademyComponent />
+            <FeaturedAcademyComponent image = {imc}/>
             
             
       </div>
@@ -40,4 +40,3 @@ const FeauturedAcademies = () => {
     );
   };
   
-  export default FeauturedAcademies;

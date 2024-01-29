@@ -5,11 +5,8 @@ import HorizontalLine from '../horizontalline/HorizontalLine';
 import { FcCallback } from "react-icons/fc";
 import Heart from '../heart/Heart'
 
-
-
-
 const PopularAcademiesComponent = ({ profileImage, title, location, activities, rating, address }) => {
-    console.log(title)
+    
     return (
         <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  p-6">
             <div className='flex items-center justify-between gap-5'>

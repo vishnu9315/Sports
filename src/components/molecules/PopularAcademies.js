@@ -1,8 +1,8 @@
 import React from 'react'
 import PopularAcademiesComponent from '../atoms/card/PopularAcademiesComponent'
-import ViewAllButton from '../atoms/button/ViewAllButton'
+import {ViewAllButton} from '../atoms/index.js'
 
-const PopularAcademies = () => {
+export const PopularAcademies = () => {
     const data = [
         {
           profileImage: '/image1.png',
@@ -62,5 +62,3 @@ const PopularAcademies = () => {
     </div>
   )
 }
-
-export default PopularAcademies

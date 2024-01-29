@@ -1,5 +1,5 @@
 'use client'
-import Button from "../atoms/button/Button";
+import {Button} from "../atoms/index";
 import ItemsContainer from '../molecules/ItemsContainer'
 
 

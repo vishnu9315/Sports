@@ -2,9 +2,9 @@ import React from 'react';
 import UpcomingEventsComponent from '../atoms/card/UpcomingEventsComponent';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'; 
-import ViewAllButton from '../atoms/button/ViewAllButton';
+import {ViewAllButton} from '../atoms/index.js';
 
-const UpcomingEvents = () => {
+export const UpcomingEvents = () => {
   const data = [
     {
       profileImage: '/image1.png',
@@ -57,4 +57,4 @@ const UpcomingEvents = () => {
   );
 };
 
-export default UpcomingEvents;
+
